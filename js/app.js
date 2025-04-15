@@ -1,6 +1,4 @@
-document.querySelector('.hamburger').addEventListener('click', () => {
-  document.querySelector('.nav-menu').classList.toggle('active');
-});
+
 var swiper = new Swiper (".food-slider",{
     grabCursor:true,
     loop :true,
@@ -23,4 +21,6 @@ var swiper = new Swiper (".food-slider",{
       },
 });
 
-
+document.querySelector('.hamburger').addEventListener('click', () => {
+  document.querySelector('.nav-menu').classList.toggle('active');
+});
